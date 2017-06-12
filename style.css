@@ -1,0 +1,151 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	background: #fafafa;
+	height: 120px;
+}
+
+.logo img{
+	width:120px;
+	height:44px;
+	position:absolute;
+	margin:20px 20px 10px 20px;
+}
+
+.searchbar input {
+	width: 600px;
+	height: 38px;
+	position: absolute;
+	margin:20px 20px 10px 160px;
+}
+
+.icon {
+	width: 200px;
+}
+
+.icons ul{
+	position: absolute;
+	margin:20px 20px 10px 1300px;
+}
+
+.icons li {
+	vertical-align: middle;
+}
+
+.tabsleft li a, .tabsright li a{
+	color: #777;
+	font-size: 13px;
+}
+
+.tabsleft li, .tabsright li{
+	padding:0 8px 0 8px;
+	margin:0 8px 0 8px;;
+}
+
+.tabsleft{
+	position: absolute;
+	margin:82px 20px 50px 160px;
+}
+
+.tabsright{
+	position: absolute;
+	margin:82px 20px 50px 620px;
+}
+
+/*This is the end of the NAVBAR style*/
+
+.main {
+	width: 600px;
+	margin:25px 200px 30px 160px;
+}
+
+#resultstats {
+	font-size:small;
+	color:#808080;
+	padding:0px 16px 16px 0;
+}
+
+.resultbottom p {
+	margin:40px 0 20px 0;
+
+}
+
+.resultbottomitems {
+	width: 200px;
+}
+
+.resultbottomitems p{
+	margin-bottom: 	10px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.page img {
+	margin:10px 150px 0 300px;
+}
+
+.page a {
+	color:#4285f4;
+	font-weight: normal;
+}
+
+.page ul {
+	margin:5px 234px 0 335px;
+}
+
+.page li {
+	padding:2px;
+}
+
+.page li:last-child {
+	margin-left: 50px;
+}
+
+.result1, .result2, .result3, .result4, .result5, .result6, .result7, .result8, .result9, .result10  {
+	margin:30px 0 30px 0;
+}
+
+.result a{
+	color:#1a0dab;
+	font-size:18px;
+}
+/*This is the end of the MAIN style*/
+
+.footer {
+	background: #f2f2f2;
+	height: 50px;
+	margin-top:50px;
+	width: 100%;
+	bottom:0;
+}
+
+.footer a {
+	font-size: small;
+	color: #777;
+	text-decoration: none;
+}
+
+.footer ul {
+	float:left;
+	margin: 8px 0 0 160px;
+}
+
+.footer li {
+	padding: 10px;
+}
